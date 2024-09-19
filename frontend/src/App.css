@@ -1,0 +1,39 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color:#bfc8c8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container to center content vertically and horizontally */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* General Styles for Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Home Page Styling */
+.home-page {
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 3rem;
+  color: #333;
+  margin: 0;
+}
+
+/* Add any additional styles for other pages or components here */

@@ -1,0 +1,71 @@
+/* Register.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  color: #333
+}
+
+form {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
