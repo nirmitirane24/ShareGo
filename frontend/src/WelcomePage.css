@@ -1,0 +1,184 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f8fbfd, #dff1f5);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Left Container */
+.upload-container {
+  flex: 1.5 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 2px solid #ececec;
+}
+
+.drop-zone {
+  border: 2px dashed #00a8ff;
+  border-radius: 12px;
+  padding: 40px;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.drop-zone:hover {
+  background-color: #e0f4ff;
+}
+
+.title {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+#browseBtn {
+  color: #00a8ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Upload Progress */
+.progress-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.bg-progress {
+  height: 10px;
+  background-color: #00a8ff;
+  border-radius: 10px;
+  transition: width 0.3s;
+}
+
+.link-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.expire {
+  font-size: 14px;
+  color: #666;
+}
+
+.file-link {
+  font-size: 16px;
+  color: #0077b5;
+  word-break: break-all;
+}
+
+/* Right Container */
+.sharing-container {
+  flex: 1 1;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email-form {
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.filed {
+  margin-bottom: 15px;
+}
+
+.filed label {
+  display: block;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.filed input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: border 0.3s;
+  background: #fafafa;
+}
+
+.filed input:focus {
+  border-color: #00a8ff;
+  outline: none;
+}
+
+/* Send Button */
+.send-btn-container {
+  text-align: center;
+}
+
+.send-btn-container button {
+  background-color: #00a8ff;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.send-btn-container button:hover {
+  background-color: #0077b5;
+  transform: translateY(-3px);
+}
+/* Progress Bar Styling */
+.progress-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.bg-progress {
+  height: 10px;
+  background-color: #00a8ff;
+  border-radius: 10px;
+  transition: width 0.3s;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.status {
+  font-size: 14px;
+  color: #333;
+}
+
+.percent-container {
+  font-size: 14px;
+  color: #333;
+}
